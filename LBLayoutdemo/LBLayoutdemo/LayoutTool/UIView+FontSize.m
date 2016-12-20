@@ -83,6 +83,7 @@
 //    [self setFontScale];
     Method imp = class_getInstanceMethod([self class], @selector(initWithCoder:));
     Method myImp = class_getInstanceMethod([self class], @selector(myInitWithCoder:));
+    //注释掉可以查看效果
     method_exchangeImplementations(imp, myImp);
     
     Method cmp = class_getInstanceMethod([self class], @selector(initWithFrame:));
