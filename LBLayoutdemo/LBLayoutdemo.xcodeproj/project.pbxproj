@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29314BA50C42EE97A19E6B1E /* libPods-LBLayoutdemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F7AFBDCC50535533927D3FE /* libPods-LBLayoutdemo.a */; };
 		3F9A27C21E08D1A90071FADC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A27C11E08D1A90071FADC /* main.m */; };
 		3F9A27C51E08D1A90071FADC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A27C41E08D1A90071FADC /* AppDelegate.m */; };
 		3F9A27C81E08D1A90071FADC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A27C71E08D1A90071FADC /* ViewController.m */; };
 		3F9A27CB1E08D1A90071FADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9A27C91E08D1A90071FADC /* Main.storyboard */; };
 		3F9A27CD1E08D1A90071FADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9A27CC1E08D1A90071FADC /* Assets.xcassets */; };
 		3F9A27D01E08D1A90071FADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9A27CE1E08D1A90071FADC /* LaunchScreen.storyboard */; };
+		3F9A27D91E08D83F0071FADC /* UserAutoLabeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A27D81E08D83F0071FADC /* UserAutoLabeVC.m */; };
+		3FE8B9431E08DAA100F0CC58 /* UIView+FontSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8B9421E08DAA100F0CC58 /* UIView+FontSize.m */; };
+		3FE8B9461E08DACE00F0CC58 /* NSLayoutConstraint+layoutSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8B9451E08DACE00F0CC58 /* NSLayoutConstraint+layoutSize.m */; };
+		3FE8B9491E08DB6A00F0CC58 /* CalculateLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8B9481E08DB6A00F0CC58 /* CalculateLayout.m */; };
+		3FE8B94D1E08E3B100F0CC58 /* LBLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FE8B94C1E08E3B100F0CC58 /* LBLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F7AFBDCC50535533927D3FE /* libPods-LBLayoutdemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LBLayoutdemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9A27BD1E08D1A90071FADC /* LBLayoutdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBLayoutdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9A27C11E08D1A90071FADC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3F9A27C31E08D1A90071FADC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +33,19 @@
 		3F9A27CC1E08D1A90071FADC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F9A27CF1E08D1A90071FADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F9A27D11E08D1A90071FADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9A27D71E08D83F0071FADC /* UserAutoLabeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAutoLabeVC.h; sourceTree = "<group>"; };
+		3F9A27D81E08D83F0071FADC /* UserAutoLabeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserAutoLabeVC.m; sourceTree = "<group>"; };
+		3FE8B9411E08DAA100F0CC58 /* UIView+FontSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FontSize.h"; sourceTree = "<group>"; };
+		3FE8B9421E08DAA100F0CC58 /* UIView+FontSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FontSize.m"; sourceTree = "<group>"; };
+		3FE8B9441E08DACE00F0CC58 /* NSLayoutConstraint+layoutSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+layoutSize.h"; sourceTree = "<group>"; };
+		3FE8B9451E08DACE00F0CC58 /* NSLayoutConstraint+layoutSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+layoutSize.m"; sourceTree = "<group>"; };
+		3FE8B9471E08DB6A00F0CC58 /* CalculateLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateLayout.h; sourceTree = "<group>"; };
+		3FE8B9481E08DB6A00F0CC58 /* CalculateLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateLayout.m; sourceTree = "<group>"; };
+		3FE8B94A1E08DC6400F0CC58 /* LayoutHead.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LayoutHead.h; sourceTree = "<group>"; };
+		3FE8B94B1E08E3B100F0CC58 /* LBLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBLayout.h; sourceTree = "<group>"; };
+		3FE8B94C1E08E3B100F0CC58 /* LBLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBLayout.m; sourceTree = "<group>"; };
+		5C4EC28C044510EEAB407DEA /* Pods-LBLayoutdemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBLayoutdemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LBLayoutdemo/Pods-LBLayoutdemo.debug.xcconfig"; sourceTree = "<group>"; };
+		68B5AA8A27D1A36E44B6FAF5 /* Pods-LBLayoutdemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBLayoutdemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LBLayoutdemo/Pods-LBLayoutdemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29314BA50C42EE97A19E6B1E /* libPods-LBLayoutdemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +65,8 @@
 			children = (
 				3F9A27BF1E08D1A90071FADC /* LBLayoutdemo */,
 				3F9A27BE1E08D1A90071FADC /* Products */,
+				9C3E5A4FEEE87AD6C4947049 /* Pods */,
+				8D85E0F71D4AC45DC2A1571E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +81,15 @@
 		3F9A27BF1E08D1A90071FADC /* LBLayoutdemo */ = {
 			isa = PBXGroup;
 			children = (
+				3FE8B9401E08DA9A00F0CC58 /* LayoutTool */,
 				3F9A27C31E08D1A90071FADC /* AppDelegate.h */,
 				3F9A27C41E08D1A90071FADC /* AppDelegate.m */,
 				3F9A27C61E08D1A90071FADC /* ViewController.h */,
 				3F9A27C71E08D1A90071FADC /* ViewController.m */,
+				3FE8B94B1E08E3B100F0CC58 /* LBLayout.h */,
+				3FE8B94C1E08E3B100F0CC58 /* LBLayout.m */,
+				3F9A27D71E08D83F0071FADC /* UserAutoLabeVC.h */,
+				3F9A27D81E08D83F0071FADC /* UserAutoLabeVC.m */,
 				3F9A27C91E08D1A90071FADC /* Main.storyboard */,
 				3F9A27CC1E08D1A90071FADC /* Assets.xcassets */,
 				3F9A27CE1E08D1A90071FADC /* LaunchScreen.storyboard */,
@@ -79,6 +107,37 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		3FE8B9401E08DA9A00F0CC58 /* LayoutTool */ = {
+			isa = PBXGroup;
+			children = (
+				3FE8B9411E08DAA100F0CC58 /* UIView+FontSize.h */,
+				3FE8B9421E08DAA100F0CC58 /* UIView+FontSize.m */,
+				3FE8B9441E08DACE00F0CC58 /* NSLayoutConstraint+layoutSize.h */,
+				3FE8B9451E08DACE00F0CC58 /* NSLayoutConstraint+layoutSize.m */,
+				3FE8B9471E08DB6A00F0CC58 /* CalculateLayout.h */,
+				3FE8B9481E08DB6A00F0CC58 /* CalculateLayout.m */,
+				3FE8B94A1E08DC6400F0CC58 /* LayoutHead.h */,
+			);
+			path = LayoutTool;
+			sourceTree = "<group>";
+		};
+		8D85E0F71D4AC45DC2A1571E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F7AFBDCC50535533927D3FE /* libPods-LBLayoutdemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C3E5A4FEEE87AD6C4947049 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C4EC28C044510EEAB407DEA /* Pods-LBLayoutdemo.debug.xcconfig */,
+				68B5AA8A27D1A36E44B6FAF5 /* Pods-LBLayoutdemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F9A27D41E08D1A90071FADC /* Build configuration list for PBXNativeTarget "LBLayoutdemo" */;
 			buildPhases = (
+				ADA379EFDA9D2621769261BE /* [CP] Check Pods Manifest.lock */,
 				3F9A27B91E08D1A90071FADC /* Sources */,
 				3F9A27BA1E08D1A90071FADC /* Frameworks */,
 				3F9A27BB1E08D1A90071FADC /* Resources */,
+				30049C252441AE1E2677005E /* [CP] Embed Pods Frameworks */,
+				8F5C2738EB08004581EBCA36 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,14 +208,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30049C252441AE1E2677005E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LBLayoutdemo/Pods-LBLayoutdemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F5C2738EB08004581EBCA36 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LBLayoutdemo/Pods-LBLayoutdemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADA379EFDA9D2621769261BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F9A27B91E08D1A90071FADC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE8B9491E08DB6A00F0CC58 /* CalculateLayout.m in Sources */,
+				3FE8B94D1E08E3B100F0CC58 /* LBLayout.m in Sources */,
+				3F9A27D91E08D83F0071FADC /* UserAutoLabeVC.m in Sources */,
 				3F9A27C81E08D1A90071FADC /* ViewController.m in Sources */,
+				3FE8B9461E08DACE00F0CC58 /* NSLayoutConstraint+layoutSize.m in Sources */,
 				3F9A27C51E08D1A90071FADC /* AppDelegate.m in Sources */,
 				3F9A27C21E08D1A90071FADC /* main.m in Sources */,
+				3FE8B9431E08DAA100F0CC58 /* UIView+FontSize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +384,7 @@
 		};
 		3F9A27D51E08D1A90071FADC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C4EC28C044510EEAB407DEA /* Pods-LBLayoutdemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CNE8E23U44;
@@ -281,6 +397,7 @@
 		};
 		3F9A27D61E08D1A90071FADC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68B5AA8A27D1A36E44B6FAF5 /* Pods-LBLayoutdemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CNE8E23U44;
@@ -310,6 +427,7 @@
 				3F9A27D61E08D1A90071FADC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
